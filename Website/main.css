@@ -1,0 +1,183 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px auto;
+    gap: 20px;
+    max-width: 1200px;
+    row-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.content{
+    padding: 15px;
+    margin: 0;
+    display: block;
+    color:white;
+}
+.card{
+    width: 350px;
+    height: auto;
+    overflow:auto;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: white;
+    justify-content: center;
+}
+.card p{
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: block ;
+    text-align: left;
+    color: black;
+    padding: 5px;
+}
+.perfume-type h2{
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 600 bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: black;
+    display: flex;
+    padding-left: 20px ;
+}
+.card h5{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.company-overview {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+
+.overview-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.company-overview h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 50px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.company-overview h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: darkorange;
+    border-radius: 2px;
+}
+.company-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.description-content h3 {
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 20px;
+    border-left: 5px solid darkorange;
+    padding-left: 15px;
+}
+
+.description-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.why-choose-us {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.why-choose-us h3 {
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 3px solid darkorange;
+    padding-bottom: 15px;
+}
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.benefits-list li {
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+}
+.benefits-list strong {
+    color: darkorange;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;;
+}
+footer{
+    background-color:black;
+    padding-top: 30px;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 1240px;
+    gap: 200px ;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.footer{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+    text-align: center;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    position: relative;
+
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background:darkorange;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,-50%);
+    transition-duration: .5s;
+}
+
+.list li:hover::before{
+    width: 70px ;
+}
+.social-icons{
+    padding: 0%;
+    text-align: center;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    
+}
+.social-icons i{
+    font-size: 25px;
+    color: white;
+}
+
+.list a{
+    text-decoration: none;
+}
+.list a:hover{
+    color: darkorange;
+
+}
+.bootom-bar{
+    background: orange;
+    margin: 0;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
